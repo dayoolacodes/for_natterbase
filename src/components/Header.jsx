@@ -74,7 +74,7 @@ class Header extends Component {
                         <Button variant="" className="btn-sm" style={{padding:"2px"}}>
                         <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g opacity="0.3">
-                            <path d="M4.44678 5.625L8.19678 9.375L11.9468 5.625" stroke="#2D2D2D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M4.44678 5.625L8.19678 9.375L11.9468 5.625" stroke="#2D2D2D" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                             </g>
                             </svg>
                             </Button>

@@ -12,10 +12,11 @@
     display: block;
     color: rgb(179, 173, 173);
     text-align: center;
-    padding: 14px 40px;
+    padding: 14px 15px;
     text-decoration: none;
     font-size: 14px;
     border-bottom: 2px solid rgb(179, 173, 173);
+    
   }
   
   .topnav a:hover {
@@ -28,3 +29,6 @@
     border-bottom: 2px solid red;
     color: tomato;
   }
+.topnav a #projDeadline{
+    color: #4DBD98
+}
