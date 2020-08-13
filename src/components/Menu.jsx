@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Menu.css'
-import { Row, Col } from "react-bootstrap";
+import { Col } from "react-bootstrap";
 
 class Menu extends Component {
     state = {  }

@@ -6,6 +6,7 @@ import SideBar from './components/Side_Bar.jsx'
 import Header from './components/Header.jsx'
 import SubNav from './components/SubNav.jsx'
 import Menu from './components/Menu.jsx'
+import MenuButtons from './components/MenuButtons.jsx'
 import Footer from './components/Footer.jsx'
 import './components/Side_bar.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -45,6 +46,24 @@ function App() {
                       </Card>
                       </Row>
                       </Container>
+                      <Container >
+                    <Row>
+                      <MenuButtons />
+                      <MenuButtons />
+                      <MenuButtons />
+                      <MenuButtons />
+                      <MenuButtons />
+                    </Row>
+                    </Container>
+                      <Container >
+                    <Row>
+                      <MenuButtons />
+                      <MenuButtons />
+                      <MenuButtons />
+                      <MenuButtons />
+                      <MenuButtons />
+                    </Row>
+                    </Container>
                 </Col> 
            </Row>
             </Container>
