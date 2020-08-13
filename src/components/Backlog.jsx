@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import {Card, Col, Image, Row} from 'react-bootstrap'
-import membr from '../img/member1.jpg';
+import membr1 from '../img/member1.jpg';
+import membr2 from '../img/member2.jpg';
+import membr3 from '../img/member3.jpg';
 import './Backlog.css'
-import { Circle } from 'react-bootstrap-icons';
+
 
 
 class Backlog extends Component {
@@ -25,9 +27,9 @@ class Backlog extends Component {
             Due Aug 8 
             <span style={{float:"right", marginRight: "20px"}}> 
             <Row>   
-            <Image src={membr} width="20px" height="20px" roundedCircle />
-            <Image src={membr} width="20px" height="20px" roundedCircle />
-            <Image src={membr} width="20px" height="20px" roundedCircle />
+            <Image src={membr1} width="20px" height="20px" roundedCircle />
+            <Image src={membr2} width="20px" height="20px" roundedCircle />
+            <Image src={membr3} width="20px" height="20px" roundedCircle />
             <div style={{borderColor: "black"}}> +4 </div>
             </Row>
              </span>
@@ -44,9 +46,9 @@ class Backlog extends Component {
             Due Aug 8 
             <span style={{float:"right", marginRight: "20px"}}> 
             <Row>   
-            <Image src={membr} width="20px" height="20px" roundedCircle />
-            <Image src={membr} width="20px" height="20px" roundedCircle />
-            <Image src={membr} width="20px" height="20px" roundedCircle />
+            <Image src={membr1} width="20px" height="20px" roundedCircle />
+            <Image src={membr2} width="20px" height="20px" roundedCircle />
+            <Image src={membr3} width="20px" height="20px" roundedCircle />
             <div style={{borderColor: "black"}}> +4 </div>
             </Row>
              </span>
@@ -63,9 +65,9 @@ class Backlog extends Component {
             Due Aug 8 
             <span style={{float:"right", marginRight: "20px"}}> 
             <Row>   
-            <Image src={membr} width="20px" height="20px" roundedCircle />
-            <Image src={membr} width="20px" height="20px" roundedCircle />
-            <Image src={membr} width="20px" height="20px" roundedCircle />
+            <Image src={membr1} width="20px" height="20px" roundedCircle />
+            <Image src={membr2} width="20px" height="20px" roundedCircle />
+            <Image src={membr3} width="20px" height="20px" roundedCircle />
             <div style={{borderColor: "black"}}> +4 </div>
             </Row>
              </span>
@@ -82,9 +84,9 @@ class Backlog extends Component {
             Due Aug 8 
             <span style={{float:"right", marginRight: "20px"}}> 
             <Row>   
-            <Image src={membr} width="20px" height="20px" roundedCircle />
-            <Image src={membr} width="20px" height="20px" roundedCircle />
-            <Image src={membr} width="20px" height="20px" roundedCircle />
+            <Image src={membr1} width="20px" height="20px" roundedCircle />
+            <Image src={membr2} width="20px" height="20px" roundedCircle />
+            <Image src={membr3} width="20px" height="20px" roundedCircle />
             <div style={{borderColor: "black"}}> +4 </div>
             </Row>
              </span>
@@ -101,9 +103,9 @@ class Backlog extends Component {
             Due Aug 8 
             <span style={{float:"right", marginRight: "20px"}}> 
             <Row>   
-            <Image src={membr} width="20px" height="20px" roundedCircle />
-            <Image src={membr} width="20px" height="20px" roundedCircle />
-            <Image src={membr} width="20px" height="20px" roundedCircle />
+            <Image src={membr1} width="20px" height="20px" roundedCircle />
+            <Image src={membr2} width="20px" height="20px" roundedCircle />
+            <Image src={membr3} width="20px" height="20px" roundedCircle />
             <div style={{borderColor: "black"}}> +4 </div>
             </Row>
              </span>
@@ -120,14 +122,15 @@ class Backlog extends Component {
             Due Aug 8 
             <span style={{float:"right", marginRight: "20px"}}> 
             <Row>   
-            <Image src={membr} width="20px" height="20px" roundedCircle />
-            <Image src={membr} width="20px" height="20px" roundedCircle />
-            <Image src={membr} width="20px" height="20px" roundedCircle />
+            <Image src={membr1} width="20px" height="20px" roundedCircle />
+            <Image src={membr2} width="20px" height="20px" roundedCircle />
+            <Image src={membr3} width="20px" height="20px" roundedCircle />
             <div style={{borderColor: "black"}}> +4 </div>
             </Row>
              </span>
             </p>
             </Card>
+            
             
             </Col>
             </>

@@ -10,8 +10,11 @@ import MenuButtons from './components/MenuButtons.jsx'
 import MenuPane from './components/MenuPane.jsx'
 import Backlog from './components/Backlog.jsx'
 import Footer from './components/Footer.jsx'
+import SideButton from './components/SideButton.jsx'
 import './components/Side_bar.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
+// import {Button, Link } from 'react-floating-action-button'
+
 
 function App() {
   return (
@@ -65,6 +68,7 @@ function App() {
                       <MenuPane />
                       <MenuPane />
                     </Row>
+                     <SideButton />
                     </Container>
                 </Col> 
            </Row>
