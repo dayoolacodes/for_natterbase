@@ -7,6 +7,8 @@ import Header from './components/Header.jsx'
 import SubNav from './components/SubNav.jsx'
 import Menu from './components/Menu.jsx'
 import MenuButtons from './components/MenuButtons.jsx'
+import MenuPane from './components/MenuPane.jsx'
+import Backlog from './components/Backlog.jsx'
 import Footer from './components/Footer.jsx'
 import './components/Side_bar.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -55,13 +57,13 @@ function App() {
                       <MenuButtons />
                     </Row>
                     </Container>
-                      <Container >
+                      <Container>
                     <Row>
-                      <MenuButtons />
-                      <MenuButtons />
-                      <MenuButtons />
-                      <MenuButtons />
-                      <MenuButtons />
+                      <Backlog />
+                      <MenuPane />
+                      <MenuPane />
+                      <MenuPane />
+                      <MenuPane />
                     </Row>
                     </Container>
                 </Col> 

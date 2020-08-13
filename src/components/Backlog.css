@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap');
+
+.backlog{
+    font-family: 'Nunito Sans', sans-serif;
+    height: 75px;
+    width:214px;
+    font-size: 10px;
+    font-style: regular;
+    margin-bottom: 5px;
+}

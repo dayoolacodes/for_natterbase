@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import { Button, Form, FormControl, InputGroup, Row, Container, Col} from "react-bootstrap";
+import { Button, Form, FormControl, InputGroup, Row, Col} from "react-bootstrap";
 import fcmb_logo from '../img/fcmb_logo.png';
 import chioma_pic from '../img/chioma_davies.jpg';
-import { FiSearch, FiBell } from 'react-icons/fi';
+import { FiSearch } from 'react-icons/fi';
 import Image from 'react-bootstrap/Image'
-import { Bell, BellFill } from 'react-bootstrap-icons'
+// import { Bell, BellFill } from 'react-bootstrap-icons'
 import './Header.css';
 
 class Header extends Component {
