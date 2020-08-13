@@ -6,7 +6,7 @@ class SideButton extends Component {
     render() { 
         return ( 
             <>
-             <Button variant="none" className="" style={{marginTop:"90px", marginLeft:"150px", position:"fixed"}}>
+             <Button variant="none" className="" style={{marginTop:"400px", marginLeft:"150px"}}>
             <svg width="101" height="101" viewBox="0 0 101 101" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <g filter="url(#filter0_d)">
                       <circle cx="50.5" cy="47.5" r="40.5" fill="#23B3E8"/>
