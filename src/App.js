@@ -22,12 +22,12 @@ function App() {
                 <Col id='page-content-wrapper' style={{width:"96%"}}>
                    <Header />
                    <br />
-                   <Card style={{left:"90px", border:"none", width:"90%"}}>
+                   <Card style={{left:"150px", border:"none", width:"90%"}}>
                     <SubNav />
                     </Card>
                    <br />
                    <Container >
-                    <Row style={{width: "100%"}}>
+                    <Row>
                       <Card style={{width:"20%", border:"none"}}>
                         <Menu name="Backlog" />
                       </Card>

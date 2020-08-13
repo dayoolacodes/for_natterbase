@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './SubNav.css'
-import {a} from "react-bootstrap"
+import {Nav} from "react-bootstrap"
 
 class SubNav extends Component {
     state = { 
