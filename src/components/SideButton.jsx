@@ -29,8 +29,7 @@ class SideButton extends Component {
                       </clipPath>
                       </defs>
                       </svg>
-
-                        </Button>
+                </Button>
             </>
          );
     }
